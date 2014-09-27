@@ -1,0 +1,8 @@
+com.nikkdotcom.ByeAds.BuildConfig
+com.nikkdotcom.ByeAds.R
+com.nikkdotcom.ByeAds.R$attr
+com.nikkdotcom.ByeAds.R$drawable
+com.nikkdotcom.ByeAds.R$id
+com.nikkdotcom.ByeAds.R$layout
+com.nikkdotcom.ByeAds.R$raw
+com.nikkdotcom.ByeAds.R$string

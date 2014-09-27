@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: byeads.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '7'
+  targetSdkVersion: '19'
+packageInfo:
+  cur_package: com.nikkdotcom.android.byeads
+  orig_package: com.nikkdotcom.android.byeads
+compressionType: false

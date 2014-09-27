@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">廣告免疫</string>
+    <string name="notif_short">廣告免疫 Update</string>
+    <string name="notif_detailed">有新的主機名可更新您的系統。</string>
+    <string name="download_install">下載並安裝主機</string>
+    <string name="revert">恢復</string>
+    <string name="check_server">每日檢查更新。</string>
+    <string name="use_localhost">使用 127.0.0.1</string>
+    <string name="will_use_localhost">將使用本機主機 IP</string>
+    <string name="use_btc">使用 nikkdotcom IP</string>
+    <string name="will_use_btc">將使用 nikkdotcom IP</string>
+    <string name="use_custom">使用自訂 IP</string>
+    <string name="will_use_custom">將使用自訂 IP</string>
+    <string name="please_wait">正在判斷當前本機主機是否為最新，請稍候。</string>
+    <string name="something_bad">出錯了。</string>
+    <string name="no_cat">找不到 cat</string>
+    <string name="no_cat_more">"您的程式中無法找到 'cat' 程式，請給我發郵件告知要在您的ROM中如何找到 cat 程式。"</string>
+    <string name="ok">確定</string>
+    <string name="good_to_go">可以了!</string>
+    <string name="good_to_go_more">無需更新, 您的版本已經是最新。</string>
+    <string name="update_found">可更新!</string>
+    <string name="update_found_more">已將新主機新增至清單，現在就可以更新並屏蔽它們。</string>
+    <string name="update_check_enabled">已啟用更新檢查。</string>
+    <string name="update_check_disabled">已關閉更新檢查。</string>
+    <string name="faq_help">FAQ/說明</string>
+    <string name="about">關於</string>
+    <string name="error">出錯</string>
+    <string name="failed_remount_ro">掛載唯讀的系統分區失敗。</string>
+    <string name="failed_remount_rw">掛載可讀寫系統分區失敗。</string>
+    <string name="failed_revert">"無法恢復主機檔案,'echo'指令可能缺失。"</string>
+    <string name="unknown_system_partition">無法確定系統分區。</string>
+    <string name="connecting">正在連線...</string>
+    <string name="please_wait2">正在更新主機檔案，請稍候。</string>
+    <string name="failed_to_download">下載主機檔案失敗。</string>
+    <string name="failed_to_replace">取代主機檔案失敗。錯誤資訊：</string>
+    <string name="failed_to_cleanup">清理暫時檔案失敗。</string>
+    <string name="reverting">正在恢復...</string>
+    <string name="please_wait3">正在恢復主機檔案，請稍候。</string>
+    <string name="success">成功!</string>
+    <string name="success_more">現在您的 Android 裝置已經是廣告免疫的了，不過您需要重啟以便清除DNS快取。</string>
+    <string name="out_of_date">過期</string>
+    <string name="too_old">這個版本的廣告免疫過老, 請更新至新版本。</string>
+    <string name="no_root">無法獲取 Root 授權權。</string>
+    <string name="no_root_more">無法獲取 root 授權權，這將無法安裝替代主機檔案。按確定檢視如何獲取手機 root 授權權。</string>
+</resources>

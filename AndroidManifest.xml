@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?><!--suppress ALL -->
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nikkdotcom.ByeAds"
+    android:versionCode="9008"
+    android:versionName="0.0.1">
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:icon="@drawable/icon2"
+        android:label="@string/app_name">
+        <activity
+            android:name=".FreeMe"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CancelIntent"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".AppUpgrade"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".DoUpgrade"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".Hosts"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".tcpDump"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".block"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name" />
+
+        <receiver android:name=".UpdateCheck" />
+        <receiver
+            android:name=".RNAutostart"
+            android:enabled="true"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.nikkdotcom.android.byeads.NetworkStateReceiver"
+            android:enabled="true"
+            android:permission="android.permission.ACCESS_NETWORK_STATE">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

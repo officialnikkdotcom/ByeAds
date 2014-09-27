@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">广告免疫</string>
+    <string name="notif_short">广告免疫 Update</string>
+    <string name="notif_detailed">有新的主机名可更新您的系统。</string>
+    <string name="download_install">下载并安装主机</string>
+    <string name="revert">恢复</string>
+    <string name="check_server">每日检查更新。</string>
+    <string name="use_localhost">使用 127.0.0.1</string>
+    <string name="will_use_localhost">将使用本地主机 IP</string>
+    <string name="use_btc">使用 nikkdotcom IP</string>
+    <string name="will_use_btc">将使用 nikkdotcom IP</string>
+    <string name="use_custom">使用自定义 IP</string>
+    <string name="will_use_custom">将使用自定义 IP</string>
+    <string name="please_wait">正在判断当前本地主机是否为最新，请稍候。</string>
+    <string name="something_bad">出错了。</string>
+    <string name="no_cat">找不到 cat</string>
+    <string name="no_cat_more">"您的程序中无法找到 'cat' 程序，请给我发邮件告知要在您的ROM中如何找到 cat 程序。"</string>
+    <string name="ok">确定</string>
+    <string name="good_to_go">可以了!</string>
+    <string name="good_to_go_more">无需更新, 您的版本已经是最新。</string>
+    <string name="update_found">可更新!</string>
+    <string name="update_found_more">已将新主机添加至列表，现在就可以更新并屏蔽它们。</string>
+    <string name="update_check_enabled">已启用更新检查。</string>
+    <string name="update_check_disabled">已关闭更新检查。</string>
+    <string name="faq_help">FAQ/帮助</string>
+    <string name="about">关于</string>
+    <string name="error">出错</string>
+    <string name="failed_remount_ro">挂载只读的系统分区失败。</string>
+    <string name="failed_remount_rw">挂载可读写系统分区失败。</string>
+    <string name="failed_revert">"无法恢复主机文件,'echo'命令可能缺失。"</string>
+    <string name="unknown_system_partition">无法确定系统分区。</string>
+    <string name="connecting">正在连接...</string>
+    <string name="please_wait2">正在更新主机文件，请稍候。</string>
+    <string name="failed_to_download">下载主机文件失败。</string>
+    <string name="failed_to_replace">替换主机文件失败。错误信息：</string>
+    <string name="failed_to_cleanup">清理临时文件失败。</string>
+    <string name="reverting">正在恢复...</string>
+    <string name="please_wait3">正在恢复主机文件，请稍候。</string>
+    <string name="success">成功!</string>
+    <string name="success_more">现在您的 Android 设备已经是广告免疫的了，不过您需要重启以便清除DNS缓存。</string>
+    <string name="out_of_date">过期</string>
+    <string name="too_old">这个版本的广告免疫过老, 请更新至新版本。</string>
+    <string name="no_root">无法获取 Root 权限。</string>
+    <string name="no_root_more">无法获取 root 权限，这将无法安装替代主机文件。点击确定查看如何获取手机 root 权限。</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@id/username_view"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:text="@string/emailAddress"
+        android:textSize="18.0sp" />
+
+    <EditText
+        android:id="@id/username_edit"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:inputType="text"
+        android:textSize="18.0sp" />
+
+    <TextView
+        android:id="@id/password_view"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:text="@string/passPhrase"
+        android:textSize="18.0sp" />
+
+    <EditText
+        android:id="@id/password_edit"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:inputType="textPassword"
+        android:textSize="18.0sp" />
+
+    <Button
+        android:id="@id/regButton1"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:text="@string/Register"
+        android:textSize="18.0sp" />
+</TableLayout>

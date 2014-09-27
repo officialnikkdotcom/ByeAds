@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textView1" type="id">false</item>
+    <item name="button1" type="id">false</item>
+    <item name="username_view" type="id">false</item>
+    <item name="username_edit" type="id">false</item>
+    <item name="password_view" type="id">false</item>
+    <item name="password_edit" type="id">false</item>
+    <item name="regButton1" type="id">false</item>
+    <item name="checkBox1" type="id">false</item>
+    <item name="AbsoluteLayout01" type="id">false</item>
+    <item name="Button01" type="id">false</item>
+    <item name="Button02" type="id">false</item>
+    <item name="CheckBox01" type="id">false</item>
+    <item name="CheckBox06" type="id">false</item>
+    <item name="CheckBox02" type="id">false</item>
+    <item name="CheckBox03" type="id">false</item>
+    <item name="RadioGroup01" type="id">false</item>
+    <item name="RadioButton01" type="id">false</item>
+    <item name="RadioButton03" type="id">false</item>
+    <item name="CheckBox04" type="id">false</item>
+    <item name="CheckBox05" type="id">false</item>
+    <item name="EditText01" type="id">false</item>
+    <item name="TextView01" type="id">false</item>
+    <item name="score_table" type="id">false</item>
+    <item name="TextView03" type="id">false</item>
+    <item name="linearLayout1" type="id">false</item>
+    <item name="progressBar1" type="id">false</item>
+</resources>

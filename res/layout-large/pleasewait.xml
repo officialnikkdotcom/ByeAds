@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/AbsoluteLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@id/TextView01"
+        android:layout_width="fill_parent"
+        android:layout_height="143.0dip"
+        android:layout_y="10.0dip"
+        android:text="@string/please_wait"
+        android:textSize="14.0pt" />
+
+    <TextView
+        android:id="@id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="680.0dip"
+        android:layout_y="225.0dip"
+        android:text="@string/sponsored_by"
+        android:textSize="14.0pt" />
+
+    <LinearLayout
+        android:id="@id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="80.0dip"
+        android:layout_x="0.0dip"
+        android:layout_y="100.0dip"
+        android:orientation="vertical" />
+
+    <ProgressBar
+        android:id="@id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="199.0dip"
+        android:layout_y="148.0dip" />
+</AbsoluteLayout>

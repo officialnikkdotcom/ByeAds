@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/AbsoluteLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <Button
+        android:id="@id/Button01"
+        android:layout_width="180.0dip"
+        android:layout_height="wrap_content"
+        android:layout_y="10.0dip"
+        android:text="@string/download_install" />
+
+    <Button
+        android:id="@id/Button02"
+        android:layout_width="135.0dip"
+        android:layout_height="wrap_content"
+        android:layout_x="184.0dip"
+        android:layout_y="10.0dip"
+        android:text="@string/revert" />
+
+    <CheckBox
+        android:id="@id/CheckBox01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_y="60.0dip"
+        android:text="@string/check_server" />
+
+    <CheckBox
+        android:id="@id/CheckBox06"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_y="100.0dip"
+        android:text="@string/autoUpdate"
+        android:visibility="invisible" />
+
+    <CheckBox
+        android:id="@id/CheckBox02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_y="140.0dip"
+        android:text="@string/symlink" />
+
+    <CheckBox
+        android:id="@id/CheckBox03"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_y="180.0dip"
+        android:text="@string/create_symlink"
+        android:visibility="invisible" />
+
+    <RadioGroup
+        android:id="@id/RadioGroup01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_y="220.0dip">
+
+        <RadioButton
+            android:id="@id/RadioButton01"
+            android:layout_width="158.0dip"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/use_localhost" />
+
+        <RadioButton
+            android:id="@id/RadioButton03"
+            android:layout_width="159.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/use_custom" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@id/CheckBox04"
+        android:layout_width="160.0dip"
+        android:layout_height="wrap_content"
+        android:layout_x="160.0dip"
+        android:layout_y="225.0dip"
+        android:text="@string/localWebserver" />
+
+    <CheckBox
+        android:id="@id/CheckBox05"
+        android:layout_width="160.0dip"
+        android:layout_height="wrap_content"
+        android:layout_x="160.0dip"
+        android:layout_y="265.0dip"
+        android:text="@string/runTCPdump" />
+
+    <EditText
+        android:id="@id/EditText01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_y="310.0dip"
+        android:text="127.0.0.1" />
+
+    <TextView
+        android:id="@id/TextView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_y="360.0dip"
+        android:text="@string/sponsored_by" />
+</AbsoluteLayout>
